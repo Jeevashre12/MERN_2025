@@ -1,13 +1,31 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id="head">hello world</h1>
+
+    <button onclick="buttonClicked()">Change button</button>
+    <input type="text" id="item">
+    <button onclick="additem()">Add item</button>
+    <ul id="list">Add</ul>
+    <script>
+        function buttonClicked() {
+           
+            document.getElementById("head").innerHTML = document.getElementById("head").innerHTML === "hello world" ? "hello kongu" : document.getElementById("head").innerHTML === "hello kongu" ? "hello jeeva" : "hello world";
+
+        }
+        var additem=()=>{
+            var data=document.getElementById("item").value;
+            var li=document.createElement("li");
+            li.innerHTML=data;
+            var list=document.getElementById("list").append(li)
+        }
+        
+    </script>
+</body>
 </html>
