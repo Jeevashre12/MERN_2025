@@ -1,0 +1,33 @@
+.navbar{
+    display:flex;
+    padding:10px;
+    background-color:rgb(145, 31, 232);
+    gap:150px;
+    text-decoration: none;
+    padding-left: 40px;
+    
+}
+.Link{
+    list-style:none;
+    background-color:white;
+    padding: 10px;
+    border:2px solid rgb(126, 17, 132);
+    border-radius:10px;
+    justify-content:space-around;
+    text-decoration:none;
+    
+    
+}
+.Link:hover{
+    color:blueviolet;
+}
+.style1{
+    color: plum;
+    font-size: large;
+    padding: 20PX;
+    
+}
+.style2{
+    text-decoration: none;
+    font-size: 20px;
+}
