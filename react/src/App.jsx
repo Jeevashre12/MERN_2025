@@ -12,7 +12,7 @@ import Skills from './pages/Skills.jsx';
 import Effect from './Hooks/Effect.jsx';
 import Effect2 from './Hooks/Effect2.jsx';
 import Login from './pages/Login.jsx';
-import Ref from './hooks/Ref'
+import Ref from './Hooks/Ref.jsx'
 const App = () => {
   
   var fruits = ["Manago", "Papaya", "Orange"];
